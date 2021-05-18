@@ -32,9 +32,8 @@ jobs:
           
       - name: chmod echo-dir
         run: |
-          chmod +x ./github-workflow-playground/echo-dir
+          chmod +x ./echo-dir
           
       - name: run echo-dir
         run: |
-          cd ./github-workflow-playground
           ./echo-dir
